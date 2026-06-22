@@ -149,7 +149,7 @@ class StudentManagementApp:
             on_logout=self._on_logout
         )
         
-        # Create content area
+        # Create content area system 
         content_frame = tk.Frame(main_frame, bg=COLORS['bg_light'])
         content_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
         
