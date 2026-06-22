@@ -51,7 +51,7 @@ class StudentManagementApp:
         self.current_page = None
         self.container = None
         
-        # Pages storage
+        # Pages storage manager
         self.pages = {}
         
         # Start application
