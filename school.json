@@ -1,0 +1,182 @@
+{
+  "users": [
+    {
+      "id": 90500288,
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin",
+      "ref_id": null
+    },
+    {
+      "id": 90500826,
+      "username": "teacher1",
+      "password": "teacher123",
+      "role": "teacher",
+      "ref_id": 90500139
+    },
+    {
+      "id": 90500993,
+      "username": "student1",
+      "password": "student123",
+      "role": "student",
+      "ref_id": 90500534
+    }
+  ],
+  "students": [
+    {
+      "id": 90500534,
+      "name": "Fatmata Sesay",
+      "age": 19,
+      "grade_level": "DIT1202F",
+      "contact": "fatmata.s@school.edu"
+    },
+    {
+      "id": 90500327,
+      "name": "Mohamed Kargbo",
+      "age": 20,
+      "grade_level": "DIT1202F",
+      "contact": "mohamed.k@school.edu"
+    },
+    {
+      "id": 90500743,
+      "name": "Isata Turay",
+      "age": 18,
+      "grade_level": "DIT1102A",
+      "contact": "isata.t@school.edu"
+    },
+    {
+      "id": 90500772,
+      "name": "Abdul Koroma",
+      "age": 21,
+      "grade_level": "DIT1202F",
+      "contact": "abdul.k@school.edu"
+    },
+    {
+      "id": 90500389,
+      "name": "Mariama Bah",
+      "age": 19,
+      "grade_level": "DIT1102A",
+      "contact": "mariama.b@school.edu"
+    },
+    {
+      "id": 90500669,
+      "name": "Aminata M. Bah",
+      "age": 20,
+      "grade_level": "DIT1102A",
+      "contact": "aminata.b@school.edu"
+    },
+    {
+      "id": 90500396,
+      "name": "Lama Sillah",
+      "age": 22,
+      "grade_level": "DIT1102A",
+      "contact": "lama.s@school.edu"
+    },
+    {
+      "id": 90500449,
+      "name": "Frances M Kamara",
+      "age": 21,
+      "grade_level": "DIT1202F",
+      "contact": "frances.k@school.edu"
+    }
+  ],
+  "teachers": [
+    {
+      "id": 90500139,
+      "name": "Mr. Suliman Kalakoh",
+      "subject": "Data Communication",
+      "contact": "suliman.k@school.edu"
+    },
+    {
+      "id": 90500670,
+      "name": "Mrs. Aminata Conteh",
+      "subject": "Mathematics",
+      "contact": "aminata.c@school.edu"
+    },
+    {
+      "id": 90500734,
+      "name": "Mr. James Bangura",
+      "subject": "English Language",
+      "contact": "james.b@school.edu"
+    }
+  ],
+  "courses": [
+    {
+      "id": 90500989,
+      "name": "COMP105 - Data Communication",
+      "teacher_id": 90500139
+    },
+    {
+      "id": 90500868,
+      "name": "MATH101 - Algebra",
+      "teacher_id": 90500670
+    },
+    {
+      "id": 90500848,
+      "name": "ENG102 - Composition",
+      "teacher_id": 90500734
+    }
+  ],
+  "grades": [
+    {
+      "id": 90500909,
+      "student_id": 90500534,
+      "course_name": "COMP105 - Data Communication",
+      "score": 88.0
+    },
+    {
+      "id": 90500915,
+      "student_id": 90500534,
+      "course_name": "MATH101 - Algebra",
+      "score": 76.0
+    },
+    {
+      "id": 90500595,
+      "student_id": 90500327,
+      "course_name": "COMP105 - Data Communication",
+      "score": 92.0
+    },
+    {
+      "id": 90500364,
+      "student_id": 90500327,
+      "course_name": "MATH101 - Algebra",
+      "score": 65.0
+    },
+    {
+      "id": 90500377,
+      "student_id": 90500743,
+      "course_name": "COMP105 - Data Communication",
+      "score": 81.0
+    },
+    {
+      "id": 90500306,
+      "student_id": 90500743,
+      "course_name": "MATH101 - Algebra",
+      "score": 74.0
+    },
+    {
+      "id": 90500930,
+      "student_id": 90500772,
+      "course_name": "COMP105 - Data Communication",
+      "score": 90.0
+    },
+    {
+      "id": 90500370,
+      "student_id": 90500772,
+      "course_name": "MATH101 - Algebra",
+      "score": 83.0
+    },
+    {
+      "id": 90500689,
+      "student_id": 90500389,
+      "course_name": "COMP105 - Data Communication",
+      "score": 69.0
+    },
+    {
+      "id": 90500100,
+      "student_id": 90500389,
+      "course_name": "MATH101 - Algebra",
+      "score": 95.0
+    }
+  ]
+}
